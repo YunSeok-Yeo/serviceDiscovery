@@ -1,0 +1,17 @@
+version 2
+run Adhoc-6-20151012-16:50:44-16492
+attr configname Adhoc
+attr datetime 20151012-16:50:44
+attr experiment Adhoc
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=6
+attr measurement ""
+attr network servicediscovery.Adhoc
+attr processid 16492
+attr repetition 6
+attr replication #6
+attr resultdir results
+attr runnumber 6
+attr seedset 6
+

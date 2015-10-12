@@ -1,0 +1,17 @@
+version 2
+run Adhoc-28-20151012-16:52:33-33344
+attr configname Adhoc
+attr datetime 20151012-16:52:33
+attr experiment Adhoc
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=28
+attr measurement ""
+attr network servicediscovery.Adhoc
+attr processid 33344
+attr repetition 28
+attr replication #28
+attr resultdir results
+attr runnumber 28
+attr seedset 28
+
