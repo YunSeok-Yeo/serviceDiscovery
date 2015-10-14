@@ -92,17 +92,7 @@ void PortableDevice::initialize()
 
 
 
-    if( strcmp(getParentModule()->getFullName(), "WirelessNode[0]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[10]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[20]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[30]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[40]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[50]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[60]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[70]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[80]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[90]") == 0
-        || strcmp(getParentModule()->getFullName(), "WirelessNode[100]") == 0)
+    if( strcmp(getParentModule()->getFullName(), "WirelessNode[0]") == 0)
     {
         scheduleAt(uniform(20, 25), queryTimer);
     }
